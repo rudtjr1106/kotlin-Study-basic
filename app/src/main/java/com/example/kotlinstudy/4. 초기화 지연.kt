@@ -12,6 +12,9 @@ val test : Int by lazy {
     100
 } // 람다식 이므로 마지막 줄이 리턴값이다.
 
+// 추가 내용 lateinit 과 by lazy의 차이점은 무엇인가?
+// 둘 다 늦은 초기화를 사용하지만 lateinit은 var을, by lazy는 val을 사용해야 한다.
+
 fun main(){
     text = "아무거나"
 
